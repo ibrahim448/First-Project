@@ -8,6 +8,7 @@ h1{
 }
 .banner-flex{
     display: flex;
+    padding-bottom: 140px;
 }
 .top-banner{
     background-image: url(/image/top-banner.png);
@@ -35,4 +36,44 @@ h1{
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/*===========================second section======================*/
+.second-banner{
+    background-image: url(/image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    background-image: url(/image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.full-Stack{
+    width: 40%;
+    height: 400px;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 20px 10px 40px gray;
+}
+.full-Stack h2{
+    font-size: 35px;
+}
+.full-Stack p{
+    color: #696969;
+}
+.border-color1{
+    border-left: 5px solid tomato;
+}
+.border-color2{
+    border-image: linear-gradient(blue, cyan);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #696969;
 }
